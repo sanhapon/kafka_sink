@@ -1,0 +1,10 @@
+[package]
+name = "consumer"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+futures = "0.1"
+tokio = { version = "1", features = ["full"] }
+rdkafka = { version = "0.28", features = ["cmake-build"] }
+protobuf = "2.25.2"
